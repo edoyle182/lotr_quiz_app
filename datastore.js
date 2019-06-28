@@ -113,8 +113,8 @@ const STORE = [
 
   {
     question: 'What is the Elvish word for "friend"?',
-    answers: ['"Namárieë"', '"Noro lim"', '"Mallorn"', '"Mellon"'],
-    correctAnswer: '"Mellon"',
+    answers: ['Namárieë', 'Noro lim', 'Mallorn', 'Mellon'],
+    correctAnswer: 'Mellon',
     icon:
       "https://i.pinimg.com/originals/ec/45/16/ec45167a465130a9901c9b8910932c4d.jpg",
     alt: "speak friend and enter"
