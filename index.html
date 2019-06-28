@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lord of the Rings Quiz</title>
+    <meta
+      name="description"
+      content="Test your knowledge of Tolkien's classic trilogy, Lord of the Rings"
+    />
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps|Spectral:300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="datastore.js"></script>
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <header role="banner">
+      <div class="col-8">
+        <a href="index.html">
+          <img
+            class="logo"
+            src="https://i.imgur.com/A5ArywE.jpg"
+            alt="fellowship silhouette icon"
+          />
+        </a>
+      </div>
+      <div class="col-4">
+        <ul>
+          <li>Question: <span class="questionNumber">0</span>/10</li>
+          <li>Score: <span class="score">0</span></li>
+        </ul>
+      </div>
+    </header>
+
+    <main role="main">
+      <div class="beginQuiz">
+        <h1>
+          Would you consider yourself a true Lord of the Rings Expert? Take the
+          quiz and make Tolkien proud!
+        </h1>
+        <a href="index.html">
+          <img
+            class="beginQuizImg"
+            src="http://content6.flixster.com/question/52/06/88/5206884_std.jpg"
+            alt="the fellowship of the ring image"
+          />
+        </a>
+        <button type="button" class="beginButton">
+          Leave the Shire, start your journey...
+        </button>
+      </div>
+      <div class="questionAndAnswerForm"></div>
+    </main>
+  </body>
+</html>
