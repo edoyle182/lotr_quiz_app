@@ -121,11 +121,11 @@ function updateScore() {
 function renderResults() {
   if (score >= 7) {
     $(".questionAndAnswerForm").html(
-      `<div class="results correctFeedback"><h3>Behold! A true Tolkienite, indeed!</h3><p>You scored: ${score} / 10</p><p>Here at last, dear friends, on the shores of the Sea comes the end of our quiz! Go in peace!</p><button class="restartButton">Restart Quiz</button></div>`
+      `<div class="results correctFeedback"><h3>Behold! A true Tolkienite, indeed!</h3><img src="https://4.bp.blogspot.com/-OGtnENLzcGw/WyFmHgV9svI/AAAAAAAAB-I/k655kkQQD2k71ViCgFlkflUu9bTx4CjJgCLcBGAs/s1600/Hobbits-Toast.gif" alt="hobbits cheer gif"/><p>You scored: ${score} / 10</p><p>Here at last, dear friends, on the shores of the Sea comes the end of our quiz! Go in peace!</p><button class="restartButton">Restart Quiz</button></div>`
     );
   } else {
     $(".questionAndAnswerForm").html(
-      `<div class="results correctFeedback"><h3>YOU SHALL NOT PASS! But do not weep young hobbit, for not all tears are an evil...</h3><p>You scored: ${score} / 10</p><p>Here at last, dear friends, on the shores of the Sea comes the end of our quiz! Go in peace!</p><button class="restartButton">Restart Quiz</button></div>`
+      `<div class="results correctFeedback"><h3>YOU SHALL NOT PASS! But do not weep young hobbit, for not all tears are an evil...</h3><img src="https://media.giphy.com/media/g4ZeaXyvRar1S/giphy.gif" alt="Boromir face palm gif"/><p>You scored: ${score} / 10</p><p>Here at last, dear friends, on the shores of the Sea comes the end of our quiz! Go in peace!</p><button class="restartButton">Restart Quiz</button></div>`
     );
   }
 }
